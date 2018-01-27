@@ -69,11 +69,27 @@ footer {
 .portfolio {
 	margin-top: 45px;
 }
+
+
 .portfolio-container .column {
 	float: left;
 	width: 33.33%;
 	margin-right: -10px;
 	margin-bottom: 20px;
+}
+
+
+/* MEDIA QUERIES */
+
+
+@media all and (max-width: 1010px) {
+
+	.portfolio-container .column {
+		display: block;
+		float: none;
+		width: 80%;
+		overflow: hidden;
+
 }
 
 .portfolio-container .row:after {
