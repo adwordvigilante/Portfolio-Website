@@ -1,0 +1,84 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	color: #8F8D8F;
+
+}
+
+body {
+	max-width: 1000px;
+	margin: auto;
+}
+
+header {
+	margin-top: 40px;
+}
+
+header h1 {
+	text-align: center;
+	font-family: 'Signika', sans-serif;
+	text-transform: uppercase;
+	font-size: 50px;
+	font-weight: 700;
+
+
+}
+
+header nav li {
+	display: inline-block;
+	font-family: monospace;
+	margin: 15px 20px 0px 20px;
+	font-size: 15px;
+
+}
+
+header nav {
+	text-align: center;
+}
+
+header nav a:link {
+	text-decoration: none;
+	color: #8F8D8F;
+	font-weight: bold;
+}
+
+header nav a:active {
+	color: #8F8D8F;
+	font-weight: bold;
+}
+
+header nav a:visited {
+	color: #8F8D8F;
+	font-weight: bold;
+}
+
+img {
+	width: 300px;
+	height: 225px;
+	display: block;
+}
+
+footer {
+	text-align: center;
+	font-family: sans-serif;
+	margin-top: 13px;
+	margin-bottom: 30px;
+}
+
+.portfolio {
+	margin-top: 45px;
+}
+.portfolio-container .column {
+	float: left;
+	width: 33.33%;
+	margin-right: -10px;
+	margin-bottom: 20px;
+}
+
+.portfolio-container .row:after {
+	content: "";
+    display: table;
+    clear: both;
+
+}
