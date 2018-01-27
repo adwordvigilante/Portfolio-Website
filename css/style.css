@@ -1,3 +1,7 @@
+/* GLOBAL SETTINGS 
+
+color: #8F8D8F;
+---------------------------------------------------------------- */
 * {
 	margin: 0;
 	padding: 0;
@@ -21,8 +25,6 @@ header h1 {
 	text-transform: uppercase;
 	font-size: 50px;
 	font-weight: 700;
-
-
 }
 
 header nav li {
@@ -30,7 +32,6 @@ header nav li {
 	font-family: monospace;
 	margin: 15px 20px 0px 20px;
 	font-size: 15px;
-
 }
 
 header nav {
@@ -53,17 +54,23 @@ header nav a:visited {
 	font-weight: bold;
 }
 
+footer {
+	text-align: center;
+	margin-top: 13px;
+	margin-bottom: 30px;
+}
+
+/* HOME PAGE CODE 
+---------------------------------------------------------------- */
+
+p {
+	font-family: sans-serif;
+}
+
 img {
 	width: 300px;
 	height: 225px;
 	display: block;
-}
-
-footer {
-	text-align: center;
-	font-family: sans-serif;
-	margin-top: 13px;
-	margin-bottom: 30px;
 }
 
 .portfolio {
@@ -78,9 +85,42 @@ footer {
 	margin-bottom: 20px;
 }
 
+/* ABOUT 
+---------------------------------------------------------------- */
 
-/* MEDIA QUERIES */
+aside img {
+	height: 250px;
+    width: 250px;
+    float: left;
+    position: absolute;
+    top: 60px;
+    left: 150px;
+}
 
+.content-area {
+	position: relative;
+
+}
+
+.content-area p {
+	font-family: sans-serif;
+    width: 50%;
+    float: right;
+    margin-top: 20px;
+    line-height: 2;
+    border: solid 2px #dedede6e;
+    padding: 10px;
+    -webkit-box-shadow: 18px 10px 17px 6px rgba(222,222,222,1);
+	-moz-box-shadow: 18px 10px 17px 6px rgba(222,222,222,1);
+	box-shadow: 18px 10px 17px 6px rgba(222,222,222,1);
+
+}
+
+
+/* MEDIA QUERIES 
+---------------------------------------------------------------- */
+
+/* HOME PAGE */
 
 @media all and (max-width: 1010px) {
 
