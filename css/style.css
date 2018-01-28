@@ -95,6 +95,11 @@ aside img {
     position: absolute;
     top: 60px;
     left: 150px;
+    border-radius: 50%;
+    border: solid #dedede6e 1px;
+    box-shadow: 1px 9px 14px 6px rgba(222,222,222,1);
+    -webkit-box-shadow: 1px 9px 17px 6px rgba(222,222,222,1);
+	-moz-box-shadow: 1px 9px 17px 6px rgba(222,222,222,1);
 }
 
 .content-area {
@@ -106,7 +111,7 @@ aside img {
 	font-family: sans-serif;
     width: 50%;
     float: right;
-    margin-top: 20px;
+    margin-top: 40px;
     line-height: 2;
     border: solid 2px #dedede6e;
     padding: 10px;
