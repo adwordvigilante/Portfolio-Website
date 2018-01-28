@@ -56,8 +56,10 @@ header nav a:visited {
 
 footer {
 	text-align: center;
-	margin-top: 13px;
-	margin-bottom: 30px;
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
 }
 
 /* HOME PAGE CODE 
