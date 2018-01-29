@@ -2,96 +2,99 @@
 
 color: #8F8D8F;
 ---------------------------------------------------------------- */
-* {
-	margin: 0;
-	padding: 0;
-	outline: 0;
-	color: #8F8D8F;
 
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    color: #8F8D8F;
+
+}
+
+.clearfix {
+    clear: both;
 }
 
 body {
-	max-width: 1000px;
-	margin: auto;
+    width: 80%;
+    margin: 0 auto;
 }
 
 header {
-	margin-top: 40px;
+    margin-top: 40px;
 }
 
 header h1 {
-	text-align: center;
-	font-family: 'Signika', sans-serif;
-	text-transform: uppercase;
-	font-size: 50px;
-	font-weight: 700;
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 700;
 }
 
 header nav li {
-	display: inline-block;
-	font-family: monospace;
-	margin: 15px 20px 0px 20px;
-	font-size: 15px;
+    display: inline-block;
+    font-family: monospace;
+    margin: 15px 20px 0px 20px;
+    font-size: 15px;
 }
 
 header nav {
-	text-align: center;
+    text-align: center;
 }
 
 header nav a:link {
-	text-decoration: none;
-	color: #8F8D8F;
-	font-weight: bold;
+    text-decoration: none;
+    color: #8F8D8F;
+    font-weight: bold;
 }
 
 header nav a:active {
-	color: #8F8D8F;
-	font-weight: bold;
+    color: #8F8D8F;
+    font-weight: bold;
 }
 
 header nav a:visited {
-	color: #8F8D8F;
-	font-weight: bold;
+    color: #8F8D8F;
+    font-weight: bold;
 }
 
 footer {
-	text-align: center;
-    position: relative;
-    left: 0px;
-    bottom: 0px;
-    width: 100%;
+    text-align: center;
+    margin-top: 13px;
+    margin-bottom: 30px;
 }
 
 /* HOME PAGE CODE 
 ---------------------------------------------------------------- */
+/* FIXED SOME STUFF HERE */
 
 p {
-	font-family: sans-serif;
+    font-family: sans-serif;
 }
 
 img {
-	width: 300px;
-	height: 225px;
-	display: block;
+    width: 20%;
+    margin: 1rem;
+    height: auto;
+    display: inline-block;
 }
 
 .portfolio {
-	margin-top: 45px;
+    margin-top: 45px;
+    text-align: center;
 }
 
 
-.portfolio-container .column {
-	float: left;
-	width: 33.33%;
-	margin-right: -10px;
-	margin-bottom: 20px;
+.portfolio-container .row {
+    margin: 0;
 }
 
 /* ABOUT 
 ---------------------------------------------------------------- */
 
 aside img {
-	height: 250px;
+    height: 250px;
     width: 250px;
     float: left;
     position: absolute;
@@ -99,50 +102,63 @@ aside img {
     left: 150px;
     border-radius: 50%;
     border: solid #dedede6e 1px;
-    box-shadow: 1px 9px 14px 6px rgba(222,222,222,1);
-    -webkit-box-shadow: 1px 9px 17px 6px rgba(222,222,222,1);
-	-moz-box-shadow: 1px 9px 17px 6px rgba(222,222,222,1);
+    box-shadow: 1px 9px 14px 6px rgba(222, 222, 222, 1);
+    -webkit-box-shadow: 1px 9px 17px 6px rgba(222, 222, 222, 1);
+    -moz-box-shadow: 1px 9px 17px 6px rgba(222, 222, 222, 1);
 }
 
 .content-area {
-	position: relative;
+    position: relative;
 
 }
 
 .content-area p {
-	font-family: sans-serif;
+    font-family: sans-serif;
     width: 50%;
     float: right;
     margin-top: 40px;
     line-height: 2;
     border: solid 2px #dedede6e;
     padding: 10px;
-    -webkit-box-shadow: 18px 10px 17px 6px rgba(222,222,222,1);
-	-moz-box-shadow: 18px 10px 17px 6px rgba(222,222,222,1);
-	box-shadow: 18px 10px 17px 6px rgba(222,222,222,1);
+    -webkit-box-shadow: 18px 10px 17px 6px rgba(222, 222, 222, 1);
+    -moz-box-shadow: 18px 10px 17px 6px rgba(222, 222, 222, 1);
+    box-shadow: 18px 10px 17px 6px rgba(222, 222, 222, 1);
 
 }
 
 /* CONTACT 
 ---------------------------------------------------------------- */
-label, input[type=text], input[type=submit] {
-	font-family: 'Signika', sans-serif;
+
+label,
+input[type=text],
+input[type=submit] {
+    font-family: 'Signika', sans-serif;
 
 }
 
-input[type=text], select, textarea {
-	font-family: 'Signika', sans-serif;
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */  
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+input[type=text],
+select,
+textarea {
+    font-family: 'Signika', sans-serif;
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 /* Style the submit button with a specific background color etc */
+
 input[type=submit] {
     background-color: #8dc8d0;
     color: white;
@@ -156,15 +172,17 @@ input[type=submit] {
 }
 
 #subject {
-	height: 300px;
+    height: 300px;
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
+
 input[type=submit]:hover {
     background-color: #4f929a;
 }
 
 /* Add a background color and some padding around the form */
+
 .contact-area {
     border-radius: 5px;
     background-color: #f2f2f2;
@@ -185,17 +203,17 @@ input[type=submit]:hover {
 
 @media all and (max-width: 1010px) {
 
-	.portfolio-container .column {
-		display: block;
-		float: none;
-		width: 80%;
-		overflow: hidden;
+    .portfolio-container .column {
+        display: block;
+        float: none;
+        width: 80%;
+        overflow: hidden;
 
-}
+    }
 
-.portfolio-container .row:after {
-	content: "";
-    display: table;
-    clear: both;
+    .portfolio-container .row:after {
+        content: "";
+        display: table;
+        clear: both;
 
-}
+    }
